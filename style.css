@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    display: block;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+    height: 100%;
+    scroll-behavior: auto;
+}
+
+header{
+    display: flex;
+    margin: 20px ;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+li{
+    display: list-item;
+    padding: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: #949698;
+}
+
+span{
+    color: #949698;
+}
+
+li a:hover{
+    color: red;
+}
+
+.link-lista{
+    display: flex;
+}
+
+.logo-ifood{
+    width: 80px;
+}
+
+.logo-ifood img{
+    width: 80px;
+    height: 43px;
+}
+
+.seletor{
+    margin-left: 20px;
+}
+
+.barra-pesquisa{
+    display: flex;
+    padding: 3px;
+}
+
+.form-pesquisa{
+    display: grid;
+    width: 340px;
+    margin-top: 0em;
+    background-color: #f3f2f1;
+    border-radius: 8px;
+}
+
+.area-pesquisa{
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    background-color: #f3f2f1;
+    margin-right: 0;
+    width: 100%;
+    position: relative;
+}
+
+.imagem-pesquisa img{
+    width: 30px;
+}
+
+.input-pesquisa{
+    color: #949698;
+}
+
+input{
+    display: flex;
+    height: 48px;
+    padding-left: 30px;
+    padding-right: 0;
+
+    width: 200px;
+    border: none;
+    background-color: #f3f2f1;
+}
+
+.address-button{
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+    align-content: center;
+}
+
+.arrow-down{
+    background-color: #ffff;
+    border: none;
+    cursor: pointer;
+}
+
+.arrow-down img{
+    width: 10px;
+}
+
